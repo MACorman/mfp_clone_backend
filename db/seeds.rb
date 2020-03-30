@@ -20,5 +20,5 @@ d1 = Diary.create(user_id: u1.id, date: Date.today)
 
 f1 = Food.create(name: "banana", calories: 105, carbs: 27.0, fat: 0.4, protein: 1.3)
 
-FoodDiary.create(food_id: f1.id, diary_id: d1.id)
+FoodDiary.create(food_id: f1.id, diary_id: d1.id, category: "breakfast")
 
